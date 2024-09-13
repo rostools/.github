@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   assign-pr-to-creator:
+    name: Assign PR to creator
     runs-on: ubuntu-latest
     steps:
       - name: Assign PR to creator
