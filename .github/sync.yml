@@ -1,0 +1,19 @@
+group:
+  # All repositories
+  - files:
+      - source: .github/workflows/assign-pr-to-creator.yml
+        dest: .github/workflows/assign-pr-to-creator.yml
+    repos: |
+      rostools/cog-flow-intro
+      rostools/r-pkg-intro
+      rostools/r-cubed-intro
+      rostools/r-cubed-intermediate
+      rostools/r-cubed-advanced
+      rostools/rostools
+      rostools/r3
+      rostools/r3admin
+      rostools/r-cubed
+      rostools/r3-theme
+      rostools/admin
+      rostools/prodigenr
+
