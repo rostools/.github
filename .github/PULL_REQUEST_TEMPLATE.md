@@ -1,14 +1,11 @@
 ## Description
 
-These changes are for PURPOSE, because REASON.
+This PR DESCRIBE CHANGES.
 
 Closes #
 
-## Reviewer Focus
-
-This PR needs a quick/an in-depth review. 
-
-Focus on CHANGES.
+<!-- Please delete as appropriate: -->
+This PR needs a quick/an in-depth review.
 
 ## Checklist
 
