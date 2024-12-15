@@ -1,4 +1,4 @@
-name: Build and deploy website
+name: Build website for material
 
 on:
   workflow_call:
@@ -18,7 +18,7 @@ jobs:
 
       # add software dependencies here
 
-      - name: Render and publish to Netlify
+      - name: Publish to Netlify (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: netlify
