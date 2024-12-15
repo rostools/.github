@@ -9,6 +9,5 @@ This PR needs a quick/an in-depth review.
 
 ## Checklist
 
-- [ ] Ran spell-check
 - [ ] Formatted Markdown
-- [ ] Rendered website locally
+- [ ] Ran `just run-all`
