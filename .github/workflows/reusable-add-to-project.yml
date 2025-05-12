@@ -1,4 +1,4 @@
-name: Reusable workflow to add items to project board and add assignees
+name: Assign items and add to project
 
 on:
   workflow_call:
