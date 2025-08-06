@@ -5,6 +5,9 @@ on:
     secrets:
       netlify-token:
         required: true
+      # To be able to use the `gh` cli in the workflow.
+      github-token:
+        required: false
 
 jobs:
   build-deploy:
@@ -28,7 +31,6 @@ jobs:
 
       - name: Install dependencies
         uses: r-lib/actions/setup-r-dependencies@bd49c52ffe281809afa6f0fecbf37483c5dd0b93
-
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@9e48da27e184aa238fcb49f5db75469626d43adb # v2.1.9
