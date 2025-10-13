@@ -25,12 +25,12 @@ jobs:
         uses: crate-ci/typos@80c8a4945eec0f6d464eaf9e65ed98ef085283d1 # v1.38.1
 
       - name: Setup R
-        uses: r-lib/actions/setup-r@bd49c52ffe281809afa6f0fecbf37483c5dd0b93
+        uses: r-lib/actions/setup-r@6f6e5bc62fba3a704f74e7ad7ef7676c5c6a2590
         with:
           use-public-rspm: true
 
       - name: Install dependencies
-        uses: r-lib/actions/setup-r-dependencies@bd49c52ffe281809afa6f0fecbf37483c5dd0b93
+        uses: r-lib/actions/setup-r-dependencies@6f6e5bc62fba3a704f74e7ad7ef7676c5c6a2590
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@9e48da27e184aa238fcb49f5db75469626d43adb # v2.1.9
